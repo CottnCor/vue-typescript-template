@@ -1,0 +1,101 @@
+[{
+    "key": "Explore",
+    "label": "XX",
+    "url": "#",
+    "icon": "home",
+    "children": [{
+        "key": "Explore-1",
+        "label": "XX-1",
+        "url": "#",
+        "icon": "smile"
+      },
+      {
+        "key": "Explore-2",
+        "label": "XX-2",
+        "url": "#",
+        "icon": "heart"
+      }
+    ]
+  },
+  {
+    "key": "Marketplace",
+    "label": "XX",
+    "url": "#",
+    "icon": "question-circle",
+    "children": [{
+      "key": "Marketplace-1",
+      "label": "XX-1",
+      "url": "#",
+      "icon": "fund"
+    }]
+  },
+  {
+    "key": "Course",
+    "label": "XX",
+    "url": "#",
+    "icon": "stop",
+    "children": [{
+        "key": "Course-1",
+        "label": "XX-1",
+        "url": "#",
+        "icon": "copy"
+      },
+      {
+        "key": "Course-2",
+        "label": "XX-2",
+        "url": "#",
+        "icon": "diff"
+      }
+    ]
+  },
+  {
+    "key": "Explore",
+    "label": "XX",
+    "url": "#",
+    "icon": "home",
+    "children": [{
+        "key": "Explore-1",
+        "label": "XX-1",
+        "url": "#",
+        "icon": "smile"
+      },
+      {
+        "key": "Explore-2",
+        "label": "XX-2",
+        "url": "#",
+        "icon": "heart"
+      }
+    ]
+  },
+  {
+    "key": "Marketplace",
+    "label": "XX",
+    "url": "#",
+    "icon": "question-circle",
+    "children": [{
+      "key": "Marketplace-1",
+      "label": "XX-1",
+      "url": "#",
+      "icon": "fund"
+    }]
+  },
+  {
+    "key": "Course",
+    "label": "XX",
+    "url": "#",
+    "icon": "stop",
+    "children": [{
+        "key": "Course-1",
+        "label": "XX-1",
+        "url": "#",
+        "icon": "copy"
+      },
+      {
+        "key": "Course-2",
+        "label": "XX-2",
+        "url": "#",
+        "icon": "diff"
+      }
+    ]
+  }
+]

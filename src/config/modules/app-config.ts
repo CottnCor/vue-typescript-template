@@ -1,0 +1,12 @@
+/*
+ * XXXX
+ */
+
+// appXXXX
+export const APP_PRAMS = {
+    nane: 'wooletor',
+    title: 'wooletor',
+    version: '0.1',
+    slogan:
+        'XXXXXXXXXXXXXXXXXXXX wooletor-APP, XXXXXXXXXXX『XX』XXXX『PP』XXXXXXXXXXXXXXXXXX，XXX『YYYY』XXXXXXXXXXXXXXXXXXXXXXX，XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX“ (ง •_•)ง 。'
+};

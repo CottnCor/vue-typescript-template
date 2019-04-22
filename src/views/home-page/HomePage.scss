@@ -1,0 +1,196 @@
+.wapper {
+  width: 100%;
+
+  .logo {
+    padding: 0 1em;
+    margin-bottom: $size_20;
+    display: inline-block;
+    border-radius: $size_3;
+    background-image: map-get($default, linear_primary);
+
+    &:hover {
+      transform: $transform_base;
+    }
+  }
+
+  .sign {
+    display: flex;
+    margin-top: $size_42;
+
+    .sign-in,
+    .sign-up {
+      border-radius: $size_20;
+      height: $size_42;
+      width: $size_120;
+    }
+
+    .sign-up {
+      &:hover {
+        background-color: map-get($default, grey_2);
+      }
+
+      p {
+        color: map-get($default, primary);
+      }
+    }
+
+    .sign-in {
+      background-image: map-get($default, linear_primary);
+
+      p {
+        color: map-get($default, pure);
+      }
+    }
+  }
+
+  .home-page-wrapper {
+    padding: 0;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .home-page-wrapper .page {
+    width: 100%;
+    margin: auto;
+    max-width: map-get($breakpoint, xl);
+    position: relative;
+  }
+
+  .banner-bg {
+    left: 0;
+    width: 120%;
+    height: $size_240;
+    bottom: -$size_240;
+    position: absolute;
+    transform-origin: 0;
+    transform: rotate(-4deg);
+    background-image: map-get($default, linear_primary);
+  }
+
+  .banner-bg-wrapper {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+  }
+
+  .banner {
+    display: flex;
+    height: map-get($breakpoint, sm);
+    align-items: center;
+  }
+
+  .banner-wrapper {
+    overflow: initial;
+    position: relative;
+  }
+
+  .banner .text-wrapper {
+    width: 54%;
+    max-width: $size_640;
+    min-height: $size_300;
+  }
+
+  .banner .img-wrapper {
+    width: 46%;
+    max-width: map-get($breakpoint, xs);
+    position: absolute;
+    right: 0;
+    bottom: $size_24;
+  }
+
+  .page1 {
+    min-height: $size_640;
+    background-image: map-get($default, linear_primary);
+
+  }
+
+  .page2 {
+    min-height: map-get($breakpoint, lg);
+    overflow: initial;
+  }
+
+  .page2 .page {
+    position: relative;
+  }
+
+  .page2-content {
+    box-shadow: $shadow_power;
+    background-image: map-get($default, linear_primary);
+    display: flex;
+  }
+
+  .page2-components,
+  .page2-product {
+    position: relative;
+    min-height: $size_12;
+    padding-right: 0;
+    padding-left: 0;
+    float: left;
+    flex: 0 0 auto;
+    width: 50%;
+    display: block;
+    box-sizing: border-box;
+    min-height: $size_540;
+  }
+
+  .page2-components {
+    background-image: map-get($default, linear_primary);
+    padding: $size_60;
+    color: #fff;
+    line-height: $size_32;
+  }
+
+  .page2-product {
+    background: #fff;
+    padding: $size_48 $size_60;
+  }
+
+  .page3 {
+    min-height: $size_640;
+  }
+
+  div.topic {
+    width: 24%;
+    min-height: $size_360;
+    background: map-get($default, pure);
+    padding: $size_12;
+    margin: 0.5%;
+
+    float: left;
+    box-shadow: $shadow_power;
+
+    a.img {
+      margin: auto;
+      display: flex;
+      width: $size_64;
+      height: $size_64;
+      border-radius: $size_32;
+      background-image: map-get($default, linear_primary_2);
+
+      & * {
+        background: map-get($default, none);
+      }
+
+      .icon {
+        margin: auto;
+        font-size: $size_18;
+        color: map-get($default, pure);
+      }
+    }
+
+    p.total {
+      line-height: 3em;
+    }
+
+    p {
+      width: calc(100% - #{($size_12 * 2)});
+      clear: both;
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+[{
+    "key": "people",
+    "label": "XXXX",
+    "url": "#",
+    "icon": "home"
+  },
+  {
+    "key": "setting",
+    "label": "XX",
+    "url": "#",
+    "icon": "setting"
+  },
+  {
+    "key": "help",
+    "label": "XX",
+    "url": "#",
+    "icon": "question-circle"
+  },
+  {
+    "key": "stop",
+    "label": "XXXX",
+    "url": "#",
+    "icon": "stop"
+  }
+]

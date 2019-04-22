@@ -1,0 +1,21 @@
+[{
+    "key": "explore",
+    "label": "XX",
+    "icon": "smile"
+  },
+  {
+    "key": "paper",
+    "label": "XX&XX",
+    "icon": "cloud"
+  },
+  {
+    "key": "ask",
+    "label": "XX",
+    "icon": "fund"
+  },
+  {
+    "key": "course",
+    "label": "XX",
+    "icon": "copy"
+  }
+]

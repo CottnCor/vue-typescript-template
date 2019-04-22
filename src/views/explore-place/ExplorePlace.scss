@@ -1,0 +1,58 @@
+.wapper {
+  width: 100%;
+  margin: auto;
+  padding: $size_36;
+  display: flex;
+
+  .box,
+  .card {
+    padding: $size_24;
+    box-shadow: $shadow_base;
+    background: map-get($default, pure);
+  }
+
+  .left-box {
+    width: calc(100% - #{($size_300 + $size_6)});
+    margin-right: $size_3;
+
+    .card,
+    .box {
+      width: 100%;
+      display: block;
+      margin-bottom: $size_7;
+
+      &.top-card {
+        height: $size_120;
+      }
+
+      &.bottom-card {
+        height: $size_360;
+      }
+    }
+  }
+
+  .right-box {
+    width: $size_300;
+    margin-left: $size_3;
+
+    .card {
+      width: 100%;
+      display: block;
+      margin-bottom: $size_7;
+
+      &.top-card {
+        height: $size_120;
+      }
+
+      &.middle-card {
+        height: $size_180;
+      }
+
+      &.bottom-card {
+        position: sticky;
+        height: $size_640;
+        top: $size_header;
+      }
+    }
+  }
+}
