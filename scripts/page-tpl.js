@@ -1,9 +1,6 @@
-/*
- * XXXXXXXX
- */
+import * as fs from "fs";
+import * as path from "path";
 
-const fs = require('fs')
-const path = require('path')
 const basePath = path.resolve(__dirname, '../src')
 
 const kebabCaseName = process.argv[2]

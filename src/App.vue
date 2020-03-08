@@ -19,7 +19,7 @@
     </div>
 </template>
 
-<script lang='ts'>
+<script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import { BasicLayout } from '@/layout';
 import { HeaderNav, FooterNav } from '@/components';
@@ -33,7 +33,7 @@ import { HeaderNav, FooterNav } from '@/components';
 export default class App extends Vue {}
 </script>
 
-<style lang='scss' scope>
+<style lang="scss" scope>
 #app {
     width: 100%;
 }
